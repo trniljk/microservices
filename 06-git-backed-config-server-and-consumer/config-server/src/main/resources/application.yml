@@ -5,8 +5,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/trniljk/booking-cloud-config-store
+          uri: https://github.com/trniljk/spring-bookingcloud-config-store
           search-paths:
-            - '*service'
+            - 'service-config/*service'
           #username: ishara
           #passphrase: 1234567
